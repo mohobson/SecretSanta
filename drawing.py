@@ -60,12 +60,10 @@ load_dotenv()
 # send emails
 import grid
 fromaddr = os.environ.get('fromaddr')
-subject = 'Random Santa'
+subject = 'Gift Exchange Time'
 for member, addr in participants.items():
 	name = dictionary[member]
-	# if member == 'mo':
-	# 	print('...........')
-	# 	grid.sendgrid_email(addr, fromaddr, subject, name)
-	#grid.sendgrid_email(addr, fromaddr, subject, name)
+	print(member, name)
+	# grid.sendgrid_email(addr, fromaddr, subject, name)
 
 

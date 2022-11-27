@@ -20,10 +20,10 @@ def sendgrid_email(toaddr, fromaddr, subject, name):
     try:
         sg = SendGridAPIClient(os.environ.get('SENDGRID_API_KEY'))
         response = sg.send(message)
-        # print(response.status_code)
-        # print(response.body)
-        # print(response.headers)
+        print(response.status_code)
+        print(response.body)
+        print(response.headers)
     except Exception as e:
         print('')
-        # print(e.message)
+        print(e.message)
 
