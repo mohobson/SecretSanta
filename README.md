@@ -2,7 +2,7 @@ Secret Santa
 
 This program is designed to automate the name drawing process, ensuring that couples cannot pick each other's names.
 
-To start, fill out the participants excel sheet with the names and email addresses of each participant. The emails can be used to anonymously notify each participant of what name they received. We will set this up in the next step. First, if there are any couples within the group that should be excluded from gifting one another, list them in the 'couples' tab of the excel sheet.
+To start, fill out the participants excel sheet with the names and email addresses of each participant. Don't delete the first row. The emails can be used to anonymously notify each participant of what name they received. We will set this up in the next step. First, if there are any couples within the group that should be excluded from gifting one another, list them in the 'couples' tab of the excel sheet.
 
 To enable the email service, you will need to create an account with Sendgrid. It's quick and easy, see the link below to get started!
 
