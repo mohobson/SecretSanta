@@ -11,7 +11,7 @@ particip = df.set_index('name').T.to_dict('list')
 participants = {}
 #convert values to str
 for key, value in particip.items():
-	participants[key] = value[0]	
+	participants[key] = value[0]
 
 
 # this will keep trying until the conditions are met (break).
